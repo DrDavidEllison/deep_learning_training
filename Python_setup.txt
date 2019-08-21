@@ -1,0 +1,12 @@
+conda create -n tf2
+conda activate tf2
+pip install tensorflow==2.0.0-beta1
+import matplotlib, numpy
+cd <dir>
+jupyter notebook
+
+conda create -n tf
+conda activate tf
+conda install matplotlib, pandas, numpy, scipy, tensorflow, seaborn, pickle, sklearn, pylab
+cd <dir>
+jupyter notebook
