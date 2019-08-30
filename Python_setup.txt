@@ -1,7 +1,7 @@
 conda create -n tf2
 conda activate tf2
 pip install tensorflow==2.0.0-beta1
-import matplotlib, numpy
+conda install matplotlib, numpy
 cd <dir>
 jupyter notebook
 
@@ -10,3 +10,6 @@ conda activate tf
 conda install matplotlib, pandas, numpy, scipy, tensorflow, seaborn, pickle, sklearn, pylab
 cd <dir>
 jupyter notebook
+
+git clone https://github.com/DrDavidEllison/deep_learning_training.git
+
